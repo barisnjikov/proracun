@@ -29,6 +29,7 @@ logback.out.xml
 backend/src/main/resources/public/
 backend/target
 frontend/dist/
+frontend/coverage/
 frontend/node/
 frontend/node_modules/
 frontend/npm-debug.log

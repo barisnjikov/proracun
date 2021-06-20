@@ -3,8 +3,8 @@ package de.jonashackt.springbootvuejs.domain;
 import javax.persistence.*;
 
 @Entity
-@Table(name="users")
-public class Per4son {
+@Table(name="persons")
+public class Person {
 
     // PrimaryKey
     @Id
@@ -14,9 +14,9 @@ public class Per4son {
     private String firstName;
     private String lastName;
 
-    protected Per4son() {}
+    protected Person() {}
 
-    public Per4son(String firstName, String lastName) {
+    public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -24,7 +24,7 @@ public class Per4son {
     @Override
     public String toString() {
         return String.format(
-                "User[id=%d, firstName='%s', lastName='%s']",
+                "Person[id=%d, firstName='%s', lastName='%s']",
                 id, firstName, lastName);
     }
 
