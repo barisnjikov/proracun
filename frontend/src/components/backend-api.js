@@ -16,6 +16,12 @@ export default {
     createUser(firstName, lastName) {
         return AXIOS.post(`/user/` + firstName + '/' + lastName);
     },
+    getPerson(personId) {
+        return AXIOS.get(`/person/` + personId);
+    },
+    createPerson(firstName, lastName) {
+        return AXIOS.post(`/person/` + firstName + '/' + lastName);
+    },
     getSecured(user, password) {
         return AXIOS.get(`/secured/`,{
             auth: {

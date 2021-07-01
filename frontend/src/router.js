@@ -4,6 +4,7 @@ import Hello from '@/components/Hello'
 import Service from '@/components/Service'
 import Bootstrap from '@/components/Bootstrap'
 import User from '@/components/User'
+import Person from '@/components/Person'
 import Login from '@/components/Login'
 import Protected from '@/components/Protected'
 
@@ -18,6 +19,7 @@ const router = new Router({
         { path: '/callservice', component: Service },
         { path: '/bootstrap', component: Bootstrap },
         { path: '/user', component: User },
+        { path: '/person', component: User },
         { path: '/login', component: Login },
         {
             path: '/protected',
