@@ -58,7 +58,7 @@
             // JSON responses are automatically parsed.
             this.retrievedPerson = response.data;
             this.showRetrievedPerson = true
-          })s
+          })
           .catch(e => {
             this.errors.push(e)
           })
