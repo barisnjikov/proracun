@@ -14,6 +14,7 @@
         <li><router-link to="/bootstrap">/bootstrap</router-link></li>
         <li>HowTo to interact with the Spring Boot database backend:</li>
         <li><router-link to="/user">/user</router-link></li>
+        <li>Ivan-s own:</li>
         <li><router-link to="/person">/person</router-link></li>
         <li>Login to the secured part of the application</li>
         <li><router-link to="/login">/login</router-link></li>

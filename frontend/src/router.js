@@ -19,7 +19,7 @@ const router = new Router({
         { path: '/callservice', component: Service },
         { path: '/bootstrap', component: Bootstrap },
         { path: '/user', component: User },
-        { path: '/person', component: User },
+        { path: '/person', component: Person },
         { path: '/login', component: Login },
         {
             path: '/protected',
